@@ -1222,7 +1222,11 @@ section,
 @media (max-width: 992px) {
   .specials .nav-link {
     border: 0;
-    padding: 15px;
+    padding: 20px;
+  }
+
+  .specials img{
+    padding-bottom: 10px;
   }
 
   .specials .nav-link.active {
