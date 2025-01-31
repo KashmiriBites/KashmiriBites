@@ -1192,7 +1192,7 @@ section,
 }
 
 .specials .nav-link:hover {
-  color: var(--accent-color);
+  color: var(--default-color);
 }
 
 .specials .nav-link.active {
@@ -1226,7 +1226,7 @@ section,
   }
 
   .specials .nav-link.active {
-    color: var(--accent-color);
+    color: #ffffff;
     background: var(--accent-color);
   }
 }
