@@ -294,6 +294,7 @@ h6 {
 
 .header .logo img {
   max-height: 100px;
+  margin-top: 10%;
   margin-right: 8px;
   align-content: center;
 }
@@ -785,6 +786,49 @@ section,
 .section-title div .description-title {
   color: var(--accent-color);
 }
+
+
+/*--------------------------------------------------------------
+# Discount Banner Section
+--------------------------------------------------------------*/
+
+.styled-banner {
+  background-color: #084b2f;
+  overflow: hidden;
+  padding: 4px 0;
+  font-family: Arial, sans-serif;
+}
+
+.scroll-track {
+  display: flex;
+  animation: scrollLoop 15s linear infinite;
+  width: max-content;
+}
+
+.banner-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 14px;
+  white-space: nowrap;
+  padding-right: 60px;
+}
+
+.banner-item strong {
+  font-weight: bold;
+  color: white;
+}
+
+.banner-item svg {
+  display: inline-block;
+}
+
+@keyframes scrollLoop {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
 
 /*--------------------------------------------------------------
 # Hero Section
