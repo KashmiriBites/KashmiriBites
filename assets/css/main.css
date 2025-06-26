@@ -1229,7 +1229,7 @@ section,
   padding: 8px 32px;
   border-radius: 50px;
   margin: 10px 0px;
-  animation: fadeInUp 1s both 0.4s;
+  /* animation: fadeInUp 1s both 0.4s; */
   border: 2px solid var(--accent-color); /* Border color */
   background: transparent; /* Transparent background by default */
   transition: background 0.3s ease; /* Smooth transition for background */
