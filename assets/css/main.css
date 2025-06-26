@@ -1220,6 +1220,26 @@ section,
   overflow: hidden;
 }
 
+.specials .btn-outline {
+  
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 32px;
+  border-radius: 50px;
+  margin: 10px 0px;
+  animation: fadeInUp 1s both 0.4s;
+  border: 2px solid var(--accent-color); /* Border color */
+  background: transparent; /* Transparent background by default */
+  transition: background 0.3s ease; /* Smooth transition for background */
+}
+
+.specials .btn-outline:hover {
+  background: var(--accent-color); /* Solid background on hover */
+  color: var(--contrast-color); /* Change text color to match contrast on hover */
+} 
+
 .specials .nav-tabs {
   border: 0;
 }
